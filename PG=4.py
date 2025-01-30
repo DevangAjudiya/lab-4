@@ -13,12 +13,14 @@ def  perfect(a):
         return True
     return False
 def armstrong(a):
-    sum=0
+   sum=0
     rem=0
     b=a
+    c=str(a)
+    d=len(c)
     while(a!=0):
         rem=a%10
-        sum = sum + rem*rem*rem
+        sum = sum + rem**d
         a=a//10
     if(b==sum):
         return True
