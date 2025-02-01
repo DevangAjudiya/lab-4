@@ -40,19 +40,14 @@ def pelindrom(a):
 def automorphic(a):
     rev=0
     rem=0
-    b=a
-    a=a*a
-    while(a!=0):
-        rem=a%10
-        rev = rev*10 + rem
-        if(rev==b):
-            return True
-        a=a//10
-    return False
-    
-    
-    
-        
+    b=a*a
+    str(a)
+    str(b)
+    l=len(b)
+    c=len(a)
+    if(b.find(a,l-c,l+1):
+        return true
+    return false     
 a=int(input("enter the number="))
 pri=prime(a)
 print("prime =",pri)
