@@ -38,16 +38,11 @@ def pelindrom(a):
         return True
     return False
 def automorphic(a):
-    rev=0
-    rem=0
-    b=a*a
-    str(a)
-    str(b)
-    l=len(b)
-    c=len(a)
-    if(b.find(a,l-c,l+1):
-        return true
-    return false     
+   def automorphic(a):
+    b=str(a*a)
+    if(b.endswith(str(a))):
+        return True
+    return False      
 a=int(input("enter the number="))
 pri=prime(a)
 print("prime =",pri)
@@ -58,6 +53,6 @@ print("armstrong =",arm)
 pelin=pelindrom(a)
 print("pelindrom =",pelin)
 auto=automorphic(a)
-print("pelindrom =",auto)
+print("automorfic =",auto)
 
     
